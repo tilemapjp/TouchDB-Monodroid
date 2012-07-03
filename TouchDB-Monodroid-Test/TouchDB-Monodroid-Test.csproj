@@ -101,6 +101,56 @@
       <Link>Jars\touchdb-android-listener.jar</Link>
     </AndroidJavaLibrary>
   </ItemGroup>
+  <ItemGroup>
+    <AndroidJavaLibrary Include="..\TouchDB-Monodroid\Jars\jackson-core-asl-1.9.2.jar">
+      <Link>Jars\jackson-core-asl-1.9.2.jar</Link>
+    </AndroidJavaLibrary>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidJavaLibrary Include="..\TouchDB-Monodroid\Jars\jackson-mapper-asl-1.9.2.jar">
+      <Link>Jars\jackson-mapper-asl-1.9.2.jar</Link>
+    </AndroidJavaLibrary>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidJavaLibrary Include="..\TouchDB-Monodroid-Ektorp\Jars\commons-io-2.0.1.jar">
+      <Link>Jars\commons-io-2.0.1.jar</Link>
+    </AndroidJavaLibrary>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidJavaLibrary Include="..\TouchDB-Monodroid-Ektorp\Jars\org.ektorp.android-1.2.2.jar">
+      <Link>Jars\org.ektorp.android-1.2.2.jar</Link>
+    </AndroidJavaLibrary>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidJavaLibrary Include="..\TouchDB-Monodroid-Ektorp\Jars\org.ektorp-1.2.2.jar">
+      <Link>Jars\org.ektorp-1.2.2.jar</Link>
+    </AndroidJavaLibrary>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidJavaLibrary Include="..\TouchDB-Monodroid-Ektorp\Jars\slf4j-api-1.6.1.jar">
+      <Link>Jars\slf4j-api-1.6.1.jar</Link>
+    </AndroidJavaLibrary>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidJavaLibrary Include="..\TouchDB-Monodroid-Ektorp\Jars\slf4j-jdk14-1.6.1.jar">
+      <Link>Jars\slf4j-jdk14-1.6.1.jar</Link>
+    </AndroidJavaLibrary>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidJavaLibrary Include="..\TouchDB-Monodroid-JavaScript\Jars\js.jar">
+      <Link>Jars\js.jar</Link>
+    </AndroidJavaLibrary>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidJavaLibrary Include="..\TouchDB-Monodroid-Listener\Jars\servlet-api-2.4.jar">
+      <Link>Jars\servlet-api-2.4.jar</Link>
+    </AndroidJavaLibrary>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidJavaLibrary Include="..\TouchDB-Monodroid-Listener\Jars\webserver.jar">
+      <Link>Jars\webserver.jar</Link>
+    </AndroidJavaLibrary>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
      Other similar extension points exist, see Microsoft.Common.targets.

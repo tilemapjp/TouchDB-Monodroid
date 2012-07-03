@@ -27,7 +27,6 @@ namespace TouchDB_Monodroid_Test
             try
             {
                 server = new TDServer(FilesDir.AbsolutePath);
-
                 // The TDListener constructor bindings are not getting created
                 //TDListener listener = new TDListener(server, 8888);
                 //listener.Start();
