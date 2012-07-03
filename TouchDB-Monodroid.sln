@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TouchDB-Monodroid", "TouchDB-Monodroid\TouchDB-Monodroid.csproj", "{94EB4DAA-6B95-4AC4-BF42-C83D95E26132}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TouchDB-Monodroid-Ektorp", "TouchDB-Monodroid-Ektorp\TouchDB-Monodroid-Ektorp.csproj", "{D83FDA10-574D-4676-8024-107E78A21C00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TouchDB-Monodroid-JavaScript", "TouchDB-Monodroid-JavaScript\TouchDB-Monodroid-JavaScript.csproj", "{FBEBD048-81E0-46A0-A08F-552F15C08426}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TouchDB-Monodroid-Listener", "TouchDB-Monodroid-Listener\TouchDB-Monodroid-Listener.csproj", "{CE9F215E-15A7-47C5-BE7D-E66975CFA56E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TouchDB-Monodroid-Test", "TouchDB-Monodroid-Test\TouchDB-Monodroid-Test.csproj", "{52D1A834-C4B5-4DF7-9739-53EDA0FFB6DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94EB4DAA-6B95-4AC4-BF42-C83D95E26132}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94EB4DAA-6B95-4AC4-BF42-C83D95E26132}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94EB4DAA-6B95-4AC4-BF42-C83D95E26132}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94EB4DAA-6B95-4AC4-BF42-C83D95E26132}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D83FDA10-574D-4676-8024-107E78A21C00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D83FDA10-574D-4676-8024-107E78A21C00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D83FDA10-574D-4676-8024-107E78A21C00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D83FDA10-574D-4676-8024-107E78A21C00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBEBD048-81E0-46A0-A08F-552F15C08426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBEBD048-81E0-46A0-A08F-552F15C08426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBEBD048-81E0-46A0-A08F-552F15C08426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBEBD048-81E0-46A0-A08F-552F15C08426}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE9F215E-15A7-47C5-BE7D-E66975CFA56E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE9F215E-15A7-47C5-BE7D-E66975CFA56E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE9F215E-15A7-47C5-BE7D-E66975CFA56E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE9F215E-15A7-47C5-BE7D-E66975CFA56E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52D1A834-C4B5-4DF7-9739-53EDA0FFB6DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52D1A834-C4B5-4DF7-9739-53EDA0FFB6DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52D1A834-C4B5-4DF7-9739-53EDA0FFB6DB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{52D1A834-C4B5-4DF7-9739-53EDA0FFB6DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52D1A834-C4B5-4DF7-9739-53EDA0FFB6DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52D1A834-C4B5-4DF7-9739-53EDA0FFB6DB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
