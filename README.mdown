@@ -1,0 +1,10 @@
+# Fork information
+This is an attempt to make a MonoDroid version of TouchDB using the Monodroid Binding Library projects. It is by no means ready for use. Contributors are welcome
+
+# TouchDB
+
+You can read more about TouchDB [here](https://github.com/couchbaselabs/TouchDB-iOS/wiki/Why-TouchDB%3F)
+
+## Requirements
+
+You'll need Monodroid and Visual Studio 2010 to build this project. If you wish to build against the latest version of TouchDB, you will have to get the input and reference jars by building [TouchDb-Android](https://github.com/couchbaselabs/TouchDB-Android/)
