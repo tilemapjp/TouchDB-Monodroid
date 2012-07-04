@@ -28,7 +28,7 @@ namespace TouchDB_Monodroid_Test
             TDServer server;
             try
             {
-                Log.Info("#### MTDB", "Server starting...");
+                Log.Info("####", "Starting...");
 
                 string path = FilesDir.AbsolutePath + "/tests";
                 Java.IO.File serverPathFile = new Java.IO.File(path);
@@ -48,10 +48,10 @@ namespace TouchDB_Monodroid_Test
                 //TDListener listener = new TDListener(server, 8888);
                 //listener.Start();
                 foreach (string name in server.AllDatabaseNames())
-                    Log.Info("#### MTDB", "DB " + name);
+                    Log.Info("####", "DB " + name);
                 server.Close();
 
-                Log.Info("#### MTDB", "Server closed");
+                Log.Info("####", "Server closed");
             }
             catch (Exception ex)
             {
