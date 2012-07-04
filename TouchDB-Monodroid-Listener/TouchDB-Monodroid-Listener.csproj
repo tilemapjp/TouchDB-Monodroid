@@ -52,13 +52,11 @@
     <InputJar Include="Jars\touchdb-android-listener.jar" />
   </ItemGroup>
   <ItemGroup>
-    <ReferenceJar Include="Jars\servlet-api-2.4.jar" />
-    <ReferenceJar Include="Jars\webserver.jar" />
-  </ItemGroup>
-  <ItemGroup>
     <ReferenceJar Include="..\TouchDB-Monodroid\Jars\touchdb-android.jar">
       <Link>Jars\touchdb-android.jar</Link>
     </ReferenceJar>
+    <ReferenceJar Include="Jars\servlet-api-2.4.jar" />
+    <ReferenceJar Include="Jars\webserver.jar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

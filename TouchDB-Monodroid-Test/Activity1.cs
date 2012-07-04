@@ -8,6 +8,8 @@ using Android.Widget;
 using Android.OS;
 using Com.Couchbase.Touchdb;
 using Com.Couchbase.Touchdb.Listener;
+using Com.Couchbase.Touchdb.Ektorp;
+using Android.Util;
 
 namespace TouchDB_Monodroid_Test
 {
@@ -26,14 +28,34 @@ namespace TouchDB_Monodroid_Test
             TDServer server;
             try
             {
-                server = new TDServer(FilesDir.AbsolutePath);
+                Log.Info("#### MTDB", "Server starting...");
+
+                string path = FilesDir.AbsolutePath + "/tests";
+                Java.IO.File serverPathFile = new Java.IO.File(path);
+                Com.Couchbase.Touchdb.Support.FileDirUtils.DeleteRecursive(serverPathFile);
+                serverPathFile.Mkdir();
+
+                server = new TDServer(path);
+                TDDatabase old = server.GetExistingDatabaseNamed("foo");
+                if (old != null)
+                    old.DeleteDatabase();
+
+                TDDatabase db = server.GetDatabaseNamed("foo");
+                db.Open();
+                db.Exists();
+
                 // The TDListener constructor bindings are not getting created
                 //TDListener listener = new TDListener(server, 8888);
                 //listener.Start();
+                foreach (string name in server.AllDatabaseNames())
+                    Log.Info("#### MTDB", "DB " + name);
+                server.Close();
+
+                Log.Info("#### MTDB", "Server closed");
             }
             catch (Exception ex)
             {
-                Toast.MakeText(this, ex.Message, ToastLength.Long).Show();
+                Log.Error("#### EXCEPTION", ex.Message);
             }
         }
     }
